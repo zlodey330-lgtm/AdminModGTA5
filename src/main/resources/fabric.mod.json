@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "adminwheel",
+  "version": "${version}",
+  "name": "Admin Wheel",
+  "description": "GTA-style radial admin menu: mute / ban / kick / kill the player you look at.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.adminwheel.AdminWheelClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "~1.19.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
